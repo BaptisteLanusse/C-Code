@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9650A4DB1BC7FA5F0097F2D8 /* lac_en_montagne.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9650A4D71BC7FA5F0097F2D8 /* lac_en_montagne.bmp */; settings = {ASSET_TAGS = (); }; };
+		9650A4DC1BC7FA5F0097F2D8 /* sapin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A4D81BC7FA5F0097F2D8 /* sapin.png */; settings = {ASSET_TAGS = (); }; };
+		9650A4DD1BC7FA5F0097F2D8 /* sdl_icone.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9650A4D91BC7FA5F0097F2D8 /* sdl_icone.bmp */; settings = {ASSET_TAGS = (); }; };
+		9650A4DE1BC7FA5F0097F2D8 /* zozor.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9650A4DA1BC7FA5F0097F2D8 /* zozor.bmp */; settings = {ASSET_TAGS = (); }; };
+		9650A4E01BC800BA0097F2D8 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9650A4DF1BC800BA0097F2D8 /* SDL_image.framework */; };
+		969830AD1BC7E4A900689CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969830AC1BC7E4A900689CF5 /* Assets.xcassets */; };
+		969830B81BC7E4D000689CF5 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969830B71BC7E4D000689CF5 /* SDL.framework */; };
+		969830BB1BC7E4F300689CF5 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 969830BA1BC7E4F300689CF5 /* SDLMain.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9650A4D71BC7FA5F0097F2D8 /* lac_en_montagne.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = lac_en_montagne.bmp; sourceTree = "<group>"; };
+		9650A4D81BC7FA5F0097F2D8 /* sapin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sapin.png; sourceTree = "<group>"; };
+		9650A4D91BC7FA5F0097F2D8 /* sdl_icone.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = sdl_icone.bmp; sourceTree = "<group>"; };
+		9650A4DA1BC7FA5F0097F2D8 /* zozor.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = zozor.bmp; sourceTree = "<group>"; };
+		9650A4DF1BC800BA0097F2D8 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
+		969830A31BC7E4A900689CF5 /* SDL-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDL-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969830AC1BC7E4A900689CF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969830B11BC7E4A900689CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969830B71BC7E4D000689CF5 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
+		969830B91BC7E4F300689CF5 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		969830BA1BC7E4F300689CF5 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969830A01BC7E4A900689CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9650A4E01BC800BA0097F2D8 /* SDL_image.framework in Frameworks */,
+				969830B81BC7E4D000689CF5 /* SDL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9698309A1BC7E4A900689CF5 = {
+			isa = PBXGroup;
+			children = (
+				969830BF1BC7E93600689CF5 /* Frameworks */,
+				969830A51BC7E4A900689CF5 /* SDL-test */,
+				969830A41BC7E4A900689CF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		969830A41BC7E4A900689CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969830A31BC7E4A900689CF5 /* SDL-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		969830A51BC7E4A900689CF5 /* SDL-test */ = {
+			isa = PBXGroup;
+			children = (
+				969830B91BC7E4F300689CF5 /* SDLMain.h */,
+				969830BA1BC7E4F300689CF5 /* SDLMain.m */,
+				9650A4D71BC7FA5F0097F2D8 /* lac_en_montagne.bmp */,
+				9650A4D81BC7FA5F0097F2D8 /* sapin.png */,
+				9650A4D91BC7FA5F0097F2D8 /* sdl_icone.bmp */,
+				9650A4DA1BC7FA5F0097F2D8 /* zozor.bmp */,
+				969830AC1BC7E4A900689CF5 /* Assets.xcassets */,
+				969830B11BC7E4A900689CF5 /* Info.plist */,
+			);
+			path = "SDL-test";
+			sourceTree = "<group>";
+		};
+		969830BF1BC7E93600689CF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9650A4DF1BC800BA0097F2D8 /* SDL_image.framework */,
+				969830B71BC7E4D000689CF5 /* SDL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969830A21BC7E4A900689CF5 /* SDL-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969830B41BC7E4A900689CF5 /* Build configuration list for PBXNativeTarget "SDL-test" */;
+			buildPhases = (
+				9698309F1BC7E4A900689CF5 /* Sources */,
+				969830A01BC7E4A900689CF5 /* Frameworks */,
+				969830A11BC7E4A900689CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDL-test";
+			productName = "SDL-test";
+			productReference = 969830A31BC7E4A900689CF5 /* SDL-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9698309B1BC7E4A900689CF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Baptiste Lanusse";
+				TargetAttributes = {
+					969830A21BC7E4A900689CF5 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9698309E1BC7E4A900689CF5 /* Build configuration list for PBXProject "SDL-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9698309A1BC7E4A900689CF5;
+			productRefGroup = 969830A41BC7E4A900689CF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969830A21BC7E4A900689CF5 /* SDL-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969830A11BC7E4A900689CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9650A4DB1BC7FA5F0097F2D8 /* lac_en_montagne.bmp in Resources */,
+				969830AD1BC7E4A900689CF5 /* Assets.xcassets in Resources */,
+				9650A4DE1BC7FA5F0097F2D8 /* zozor.bmp in Resources */,
+				9650A4DD1BC7FA5F0097F2D8 /* sdl_icone.bmp in Resources */,
+				9650A4DC1BC7FA5F0097F2D8 /* sapin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9698309F1BC7E4A900689CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969830BB1BC7E4F300689CF5 /* SDLMain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		969830B21BC7E4A900689CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		969830B31BC7E4A900689CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		969830B51BC7E4A900689CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL.framework/Headers,
+					/Library/Frameworks/SDL_image.framework/Headers,
+				);
+				INFOPLIST_FILE = "SDL-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.test.SDL-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		969830B61BC7E4A900689CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL.framework/Headers,
+					/Library/Frameworks/SDL_image.framework/Headers,
+				);
+				INFOPLIST_FILE = "SDL-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.test.SDL-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9698309E1BC7E4A900689CF5 /* Build configuration list for PBXProject "SDL-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969830B21BC7E4A900689CF5 /* Debug */,
+				969830B31BC7E4A900689CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969830B41BC7E4A900689CF5 /* Build configuration list for PBXNativeTarget "SDL-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969830B51BC7E4A900689CF5 /* Debug */,
+				969830B61BC7E4A900689CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9698309B1BC7E4A900689CF5 /* Project object */;
+}
