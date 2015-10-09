@@ -11,10 +11,10 @@
 		9650A4DC1BC7FA5F0097F2D8 /* sapin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650A4D81BC7FA5F0097F2D8 /* sapin.png */; settings = {ASSET_TAGS = (); }; };
 		9650A4DD1BC7FA5F0097F2D8 /* sdl_icone.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9650A4D91BC7FA5F0097F2D8 /* sdl_icone.bmp */; settings = {ASSET_TAGS = (); }; };
 		9650A4DE1BC7FA5F0097F2D8 /* zozor.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 9650A4DA1BC7FA5F0097F2D8 /* zozor.bmp */; settings = {ASSET_TAGS = (); }; };
-		9650A4E01BC800BA0097F2D8 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9650A4DF1BC800BA0097F2D8 /* SDL_image.framework */; };
 		969830AD1BC7E4A900689CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969830AC1BC7E4A900689CF5 /* Assets.xcassets */; };
 		969830B81BC7E4D000689CF5 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969830B71BC7E4D000689CF5 /* SDL.framework */; };
 		969830BB1BC7E4F300689CF5 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 969830BA1BC7E4F300689CF5 /* SDLMain.m */; settings = {ASSET_TAGS = (); }; };
+		96F7BF4E1BC8100D00BDF121 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F7BF4D1BC8100D00BDF121 /* SDL_image.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +22,13 @@
 		9650A4D81BC7FA5F0097F2D8 /* sapin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sapin.png; sourceTree = "<group>"; };
 		9650A4D91BC7FA5F0097F2D8 /* sdl_icone.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = sdl_icone.bmp; sourceTree = "<group>"; };
 		9650A4DA1BC7FA5F0097F2D8 /* zozor.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = zozor.bmp; sourceTree = "<group>"; };
-		9650A4DF1BC800BA0097F2D8 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
 		969830A31BC7E4A900689CF5 /* SDL-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDL-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		969830AC1BC7E4A900689CF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		969830B11BC7E4A900689CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		969830B71BC7E4D000689CF5 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
 		969830B91BC7E4F300689CF5 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
 		969830BA1BC7E4F300689CF5 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		96F7BF4D1BC8100D00BDF121 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9650A4E01BC800BA0097F2D8 /* SDL_image.framework in Frameworks */,
+				96F7BF4E1BC8100D00BDF121 /* SDL_image.framework in Frameworks */,
 				969830B81BC7E4D000689CF5 /* SDL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,7 +79,7 @@
 		969830BF1BC7E93600689CF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9650A4DF1BC800BA0097F2D8 /* SDL_image.framework */,
+				96F7BF4D1BC8100D00BDF121 /* SDL_image.framework */,
 				969830B71BC7E4D000689CF5 /* SDL.framework */,
 			);
 			name = Frameworks;
