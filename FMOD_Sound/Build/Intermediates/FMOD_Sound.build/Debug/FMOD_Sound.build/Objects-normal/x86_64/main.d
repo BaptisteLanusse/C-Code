@@ -1,4 +1,5 @@
-dependencies: /Users/lanussebaptiste/Desktop/FMOD_Sound/FMOD_Sound/main.c \
+dependencies: \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/FMOD_Sound/FMOD_Sound/main.c \
   /Library/Frameworks/SDL.framework/Headers/SDL.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_main.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h \
@@ -27,9 +28,9 @@ dependencies: /Users/lanussebaptiste/Desktop/FMOD_Sound/FMOD_Sound/main.c \
   /Library/Frameworks/SDL.framework/Headers/SDL_timer.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_version.h \
   /Library/Frameworks/SDL_image.framework/Headers/SDL_image.h \
-  /Users/lanussebaptiste/Desktop/FMOD_Sound/FMOD_Sound/fmod.h \
-  /Users/lanussebaptiste/Desktop/FMOD_Sound/FMOD_Sound/fmod_common.h \
-  /Users/lanussebaptiste/Desktop/FMOD_Sound/FMOD_Sound/fmod_codec.h \
-  /Users/lanussebaptiste/Desktop/FMOD_Sound/FMOD_Sound/fmod_dsp.h \
-  /Users/lanussebaptiste/Desktop/FMOD_Sound/FMOD_Sound/fmod_dsp_effects.h \
-  /Users/lanussebaptiste/Desktop/FMOD_Sound/FMOD_Sound/fmod_output.h
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/FMOD_Sound/FMOD_Sound/fmod.h \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/FMOD_Sound/FMOD_Sound/fmod_common.h \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/FMOD_Sound/FMOD_Sound/fmod_codec.h \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/FMOD_Sound/FMOD_Sound/fmod_dsp.h \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/FMOD_Sound/FMOD_Sound/fmod_dsp_effects.h \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/FMOD_Sound/FMOD_Sound/fmod_output.h

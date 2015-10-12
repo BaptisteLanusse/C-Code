@@ -35,7 +35,7 @@ int main(int argc, const char *argv[]){
     
     /* Création et initialisation d'un objet système */
     FMOD_System_Create(&system);
-    FMOD_System_Init(system, 1, FMOD_INIT_NORMAL, NULL);
+    FMOD_System_Init(system, 2, FMOD_INIT_NORMAL, NULL);
     
     FMOD_System_CreateChannelGroup(system, "music", &musicChannelGroup);
     FMOD_System_CreateChannelGroup(system, "effect", &effectChannelGroup);
