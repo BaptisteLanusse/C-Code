@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/lanussebaptiste/Desktop/MarioSokoban/MarioSokoban/fichiers.c \
-  /Users/lanussebaptiste/Desktop/MarioSokoban/MarioSokoban/fichiers.h \
-  /Users/lanussebaptiste/Desktop/MarioSokoban/MarioSokoban/constantes.h
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/fichiers.c \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/fichiers.h \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/constantes.h

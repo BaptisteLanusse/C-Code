@@ -1,8 +1,5 @@
 dependencies: \
-  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/SDLMain.m \
-  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/SDLMain.h \
-  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/constantes.h \
-  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/jeu.h \
+  /Users/lanussebaptiste/Desktop/SDL_Time_Manip/SDL_Time_Manip/main.c \
   /Library/Frameworks/SDL.framework/Headers/SDL.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_main.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h \
@@ -29,7 +26,4 @@ dependencies: \
   /Library/Frameworks/SDL.framework/Headers/SDL_quit.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_loadso.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_timer.h \
-  /Library/Frameworks/SDL.framework/Headers/SDL_version.h \
-  /Library/Frameworks/SDL_image.framework/Headers/SDL_image.h \
-  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/editeur.h \
-  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/fichiers.h
+  /Library/Frameworks/SDL.framework/Headers/SDL_version.h

@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/lanussebaptiste/Desktop/MarioSokoban/MarioSokoban/jeu.c \
-  /Users/lanussebaptiste/Desktop/MarioSokoban/MarioSokoban/jeu.h \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/jeu.c \
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/jeu.h \
   /Library/Frameworks/SDL.framework/Headers/SDL.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_main.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_stdinc.h \
@@ -29,4 +29,4 @@ dependencies: \
   /Library/Frameworks/SDL.framework/Headers/SDL_timer.h \
   /Library/Frameworks/SDL.framework/Headers/SDL_version.h \
   /Library/Frameworks/SDL_image.framework/Headers/SDL_image.h \
-  /Users/lanussebaptiste/Desktop/MarioSokoban/MarioSokoban/constantes.h
+  /Users/lanussebaptiste/Documents/tests/Developpement/C-Code/MarioSokoban/MarioSokoban/constantes.h
