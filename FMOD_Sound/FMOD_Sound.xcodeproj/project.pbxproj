@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9631A3241BCBDF78009BDE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9631A3231BCBDF78009BDE5E /* Assets.xcassets */; };
+		9631A3301BCBDF97009BDE5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9631A32F1BCBDF97009BDE5E /* main.c */; settings = {ASSET_TAGS = (); }; };
+		9631A3341BCBDFE6009BDE5E /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631A3311BCBDFE6009BDE5E /* SDL_image.framework */; };
+		9631A3351BCBDFE6009BDE5E /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631A3321BCBDFE6009BDE5E /* SDL_ttf.framework */; };
+		9631A3361BCBDFE6009BDE5E /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631A3331BCBDFE6009BDE5E /* SDL.framework */; };
+		9631A3421BCBEF0E009BDE5E /* libfmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9631A3411BCBEF0E009BDE5E /* libfmod.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9631A31A1BCBDF78009BDE5E /* FMOD_Sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMOD_Sound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9631A3231BCBDF78009BDE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9631A3281BCBDF78009BDE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9631A32F1BCBDF97009BDE5E /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9631A3311BCBDFE6009BDE5E /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
+		9631A3321BCBDFE6009BDE5E /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = ../../../../Library/Frameworks/SDL_ttf.framework; sourceTree = "<group>"; };
+		9631A3331BCBDFE6009BDE5E /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+		9631A3371BCBE04C009BDE5E /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		9631A3381BCBE04C009BDE5E /* fmod_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_common.h; sourceTree = "<group>"; };
+		9631A3391BCBE04C009BDE5E /* fmod_dsp_effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp_effects.h; sourceTree = "<group>"; };
+		9631A33A1BCBE04C009BDE5E /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		9631A33B1BCBE04C009BDE5E /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		9631A33C1BCBE04C009BDE5E /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		9631A33D1BCBE04C009BDE5E /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		9631A3411BCBEF0E009BDE5E /* libfmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmod.dylib; path = ../../../../Library/Frameworks/libfmod.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9631A3171BCBDF78009BDE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9631A3421BCBEF0E009BDE5E /* libfmod.dylib in Frameworks */,
+				9631A3341BCBDFE6009BDE5E /* SDL_image.framework in Frameworks */,
+				9631A3351BCBDFE6009BDE5E /* SDL_ttf.framework in Frameworks */,
+				9631A3361BCBDFE6009BDE5E /* SDL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9631A3111BCBDF78009BDE5E = {
+			isa = PBXGroup;
+			children = (
+				9631A3411BCBEF0E009BDE5E /* libfmod.dylib */,
+				9631A3311BCBDFE6009BDE5E /* SDL_image.framework */,
+				9631A3321BCBDFE6009BDE5E /* SDL_ttf.framework */,
+				9631A3331BCBDFE6009BDE5E /* SDL.framework */,
+				9631A31C1BCBDF78009BDE5E /* FMOD_Sound */,
+				9631A31B1BCBDF78009BDE5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9631A31B1BCBDF78009BDE5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9631A31A1BCBDF78009BDE5E /* FMOD_Sound.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9631A31C1BCBDF78009BDE5E /* FMOD_Sound */ = {
+			isa = PBXGroup;
+			children = (
+				9631A32E1BCBDF87009BDE5E /* FMOD */,
+				9631A3231BCBDF78009BDE5E /* Assets.xcassets */,
+				9631A3281BCBDF78009BDE5E /* Info.plist */,
+				9631A32F1BCBDF97009BDE5E /* main.c */,
+			);
+			path = FMOD_Sound;
+			sourceTree = "<group>";
+		};
+		9631A32E1BCBDF87009BDE5E /* FMOD */ = {
+			isa = PBXGroup;
+			children = (
+				9631A3371BCBE04C009BDE5E /* fmod_codec.h */,
+				9631A3381BCBE04C009BDE5E /* fmod_common.h */,
+				9631A3391BCBE04C009BDE5E /* fmod_dsp_effects.h */,
+				9631A33A1BCBE04C009BDE5E /* fmod_dsp.h */,
+				9631A33B1BCBE04C009BDE5E /* fmod_errors.h */,
+				9631A33C1BCBE04C009BDE5E /* fmod_output.h */,
+				9631A33D1BCBE04C009BDE5E /* fmod.h */,
+			);
+			name = FMOD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9631A3191BCBDF78009BDE5E /* FMOD_Sound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9631A32B1BCBDF78009BDE5E /* Build configuration list for PBXNativeTarget "FMOD_Sound" */;
+			buildPhases = (
+				9631A3161BCBDF78009BDE5E /* Sources */,
+				9631A3171BCBDF78009BDE5E /* Frameworks */,
+				9631A3181BCBDF78009BDE5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMOD_Sound;
+			productName = FMOD_Sound;
+			productReference = 9631A31A1BCBDF78009BDE5E /* FMOD_Sound.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9631A3121BCBDF78009BDE5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Baptiste Lanusse";
+				TargetAttributes = {
+					9631A3191BCBDF78009BDE5E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9631A3151BCBDF78009BDE5E /* Build configuration list for PBXProject "FMOD_Sound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9631A3111BCBDF78009BDE5E;
+			productRefGroup = 9631A31B1BCBDF78009BDE5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9631A3191BCBDF78009BDE5E /* FMOD_Sound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9631A3181BCBDF78009BDE5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9631A3241BCBDF78009BDE5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9631A3161BCBDF78009BDE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9631A3301BCBDF97009BDE5E /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9631A3291BCBDF78009BDE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9631A32A1BCBDF78009BDE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9631A32C1BCBDF78009BDE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL_ttf.framework/Headers,
+					/Library/Frameworks/SDL_image.framework/Headers,
+					/Library/Frameworks/SDL.framework/Headers,
+				);
+				INFOPLIST_FILE = FMOD_Sound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.test.FMOD-Sound";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9631A32D1BCBDF78009BDE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL_ttf.framework/Headers,
+					/Library/Frameworks/SDL_image.framework/Headers,
+					/Library/Frameworks/SDL.framework/Headers,
+				);
+				INFOPLIST_FILE = FMOD_Sound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.test.FMOD-Sound";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9631A3151BCBDF78009BDE5E /* Build configuration list for PBXProject "FMOD_Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9631A3291BCBDF78009BDE5E /* Debug */,
+				9631A32A1BCBDF78009BDE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9631A32B1BCBDF78009BDE5E /* Build configuration list for PBXNativeTarget "FMOD_Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9631A32C1BCBDF78009BDE5E /* Debug */,
+				9631A32D1BCBDF78009BDE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9631A3121BCBDF78009BDE5E /* Project object */;
+}
