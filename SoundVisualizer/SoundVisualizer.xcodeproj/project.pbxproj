@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C23E821BCBFC3C004A779A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C23E811BCBFC3C004A779A /* Assets.xcassets */; };
+		96C23E8D1BCBFC6F004A779A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 96C23E8C1BCBFC6F004A779A /* main.c */; settings = {ASSET_TAGS = (); }; };
+		96C23E931BCC00A3004A779A /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23E8F1BCC00A3004A779A /* SDL_image.framework */; };
+		96C23E941BCC00A3004A779A /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23E901BCC00A3004A779A /* SDL_ttf.framework */; };
+		96C23E951BCC00A3004A779A /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23E911BCC00A3004A779A /* SDL.framework */; };
+		96D72A151BCCFFC30047AD99 /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D72A141BCCFFC30047AD99 /* libfmodex.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96C23E781BCBFC3C004A779A /* SoundVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C23E811BCBFC3C004A779A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96C23E861BCBFC3C004A779A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C23E8C1BCBFC6F004A779A /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		96C23E8F1BCC00A3004A779A /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../../../Library/Frameworks/SDL_image.framework; sourceTree = "<group>"; };
+		96C23E901BCC00A3004A779A /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = ../../../../Library/Frameworks/SDL_ttf.framework; sourceTree = "<group>"; };
+		96C23E911BCC00A3004A779A /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+		96D72A141BCCFFC30047AD99 /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex.dylib; path = ../../../../Library/Frameworks/libfmodex.dylib; sourceTree = "<group>"; };
+		96D72A171BCCFFD40047AD99 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		96D72A181BCCFFD40047AD99 /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		96D72A191BCCFFD40047AD99 /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		96D72A1A1BCCFFD40047AD99 /* fmod_memoryinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_memoryinfo.h; sourceTree = "<group>"; };
+		96D72A1B1BCCFFD40047AD99 /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		96D72A1C1BCCFFD40047AD99 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		96D72A1D1BCCFFD40047AD99 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C23E751BCBFC3B004A779A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D72A151BCCFFC30047AD99 /* libfmodex.dylib in Frameworks */,
+				96C23E931BCC00A3004A779A /* SDL_image.framework in Frameworks */,
+				96C23E941BCC00A3004A779A /* SDL_ttf.framework in Frameworks */,
+				96C23E951BCC00A3004A779A /* SDL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96C23E6F1BCBFC3B004A779A = {
+			isa = PBXGroup;
+			children = (
+				96D72A141BCCFFC30047AD99 /* libfmodex.dylib */,
+				96C23E8F1BCC00A3004A779A /* SDL_image.framework */,
+				96C23E901BCC00A3004A779A /* SDL_ttf.framework */,
+				96C23E911BCC00A3004A779A /* SDL.framework */,
+				96C23E7A1BCBFC3C004A779A /* SoundVisualizer */,
+				96C23E791BCBFC3C004A779A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96C23E791BCBFC3C004A779A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C23E781BCBFC3C004A779A /* SoundVisualizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C23E7A1BCBFC3C004A779A /* SoundVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				96D72A161BCCFFCA0047AD99 /* FMOD */,
+				96C23E811BCBFC3C004A779A /* Assets.xcassets */,
+				96C23E861BCBFC3C004A779A /* Info.plist */,
+				96C23E8C1BCBFC6F004A779A /* main.c */,
+			);
+			path = SoundVisualizer;
+			sourceTree = "<group>";
+		};
+		96D72A161BCCFFCA0047AD99 /* FMOD */ = {
+			isa = PBXGroup;
+			children = (
+				96D72A171BCCFFD40047AD99 /* fmod_codec.h */,
+				96D72A181BCCFFD40047AD99 /* fmod_dsp.h */,
+				96D72A191BCCFFD40047AD99 /* fmod_errors.h */,
+				96D72A1A1BCCFFD40047AD99 /* fmod_memoryinfo.h */,
+				96D72A1B1BCCFFD40047AD99 /* fmod_output.h */,
+				96D72A1C1BCCFFD40047AD99 /* fmod.h */,
+				96D72A1D1BCCFFD40047AD99 /* fmod.hpp */,
+			);
+			name = FMOD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C23E771BCBFC3B004A779A /* SoundVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C23E891BCBFC3C004A779A /* Build configuration list for PBXNativeTarget "SoundVisualizer" */;
+			buildPhases = (
+				96C23E741BCBFC3B004A779A /* Sources */,
+				96C23E751BCBFC3B004A779A /* Frameworks */,
+				96C23E761BCBFC3B004A779A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundVisualizer;
+			productName = SoundVisualizer;
+			productReference = 96C23E781BCBFC3C004A779A /* SoundVisualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C23E701BCBFC3B004A779A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Baptiste Lanusse";
+				TargetAttributes = {
+					96C23E771BCBFC3B004A779A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 96C23E731BCBFC3B004A779A /* Build configuration list for PBXProject "SoundVisualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96C23E6F1BCBFC3B004A779A;
+			productRefGroup = 96C23E791BCBFC3C004A779A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C23E771BCBFC3B004A779A /* SoundVisualizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C23E761BCBFC3B004A779A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C23E821BCBFC3C004A779A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C23E741BCBFC3B004A779A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C23E8D1BCBFC6F004A779A /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96C23E871BCBFC3C004A779A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96C23E881BCBFC3C004A779A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96C23E8A1BCBFC3C004A779A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL_ttf.framework/Headers,
+					/Library/Frameworks/SDL_image.framework/Headers,
+					/Library/Frameworks/SDL.framework/Headers,
+				);
+				INFOPLIST_FILE = SoundVisualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.test.SoundVisualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96C23E8B1BCBFC3C004A779A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL_ttf.framework/Headers,
+					/Library/Frameworks/SDL_image.framework/Headers,
+					/Library/Frameworks/SDL.framework/Headers,
+				);
+				INFOPLIST_FILE = SoundVisualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.test.SoundVisualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C23E731BCBFC3B004A779A /* Build configuration list for PBXProject "SoundVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C23E871BCBFC3C004A779A /* Debug */,
+				96C23E881BCBFC3C004A779A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C23E891BCBFC3C004A779A /* Build configuration list for PBXNativeTarget "SoundVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C23E8A1BCBFC3C004A779A /* Debug */,
+				96C23E8B1BCBFC3C004A779A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C23E701BCBFC3B004A779A /* Project object */;
+}
